@@ -1,0 +1,36 @@
+/**** Tag sdelector***/
+
+body {
+  background-color: #ff9c71;
+}
+
+hr {
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  height: 100px;
+  width:5%;
+
+}
+
+h1{
+  color: #10375c;
+
+}
+
+h3{
+  color: #ff4c71;
+
+}
+
+
+/**** Class selector****/
+.mypic {
+  background-color: green;
+}
+
+/*** ID se;ector ****/
+#heading{
+  color: blue;
+}

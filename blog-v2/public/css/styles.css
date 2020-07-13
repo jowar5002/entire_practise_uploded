@@ -1,0 +1,49 @@
+body {
+  background-color: #f4f6ff;
+
+}
+
+.navbar-brand {
+  <nav class="navbar navbar-light bg-light"><span class="navbar-brand mb-0 h1">Navbar</span></nav>
+}
+
+.navbar-nav {
+  height: 60px;
+}
+
+.nav-item {
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.navbar-brand {
+  padding: 10px;
+  padding-left: 100px;
+}
+
+.homepart {
+  padding-left: 100px;
+    margin-right: 100px;
+}
+
+footer {
+  background-color: #87dfd6;
+  text-align: center;
+  padding-top: 30px;
+  position: fixed;
+  height: 80px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+
+.composeitem{
+  margin-right: 50px;
+}
+
+.btn{
+  margin-top: 10px;
+
+}

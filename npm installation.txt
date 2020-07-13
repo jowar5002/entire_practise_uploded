@@ -1,0 +1,52 @@
+npm init
+
+npm i express body-parser ejs
+
+
+npm i mongoose
+
+
+npm i mongoose-encrypt
+
+npm i dotenv
+
+npm i md5
+
+npm i bcrypt
+
+npm i passport passport-local passport-local-mongoose 
+npm i express-session
+
+npm i passport-google-oauth20
+npm i mongoose-findorcreate
+
+check bootsnipp.com
+ 
+
+hyper path:
+
+cd "/c/jowar_drive/Web_dev_bootcamp/web dev bootcamp practise"
+
+
+Javascript starting temlate: 
+
+const express  =  require("express");
+const bodyParser = require("body-parser");
+
+const app = express();
+app.use(bodyParser.urlencoded({extended: true}));
+
+app.use(express.static("public"));
+
+app.set("view engine", "ejs");
+
+
+
+app.get("/", function(req, res) {
+  res.send("Hello!");
+});
+
+
+app.listen(4000, function() {
+  console.log("post is listening at 4000");
+});

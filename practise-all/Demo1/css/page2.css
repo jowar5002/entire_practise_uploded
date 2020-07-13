@@ -1,0 +1,15 @@
+body{
+  margin-left: 200px;
+  margin-right: 200px;
+  /* margin-top: 200px; */
+
+  background-image: url(../images/2-lar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+.page2{
+  margin-top: 150px;
+}

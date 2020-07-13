@@ -1,0 +1,38 @@
+git init
+git add *
+git commit -m "name of project first"
+git remote add origin https://github.com/jowar5002/foldername.git
+git push -u origin master
+
+
+
+
+
+
+go inside working directory
+
+git init
+
+git add filename.extension
+
+git commit -m "complete chapter 1"
+
+git log
+
+git add . (will upload everything in the directory)
+
+git status  to check status
+
+git remote add origin https://github.com/jowar5002/crawler.git
+
+git push -u origin master
+
+
+1.git init
+2.git config user.name "someone"
+3.git config user.email "someone@someplace.com"
+4.git add *
+5.git commit -m "some init msg"
+
+     git config --global user.name "jowar5002"
+     git config --global user.email "jowar5002@gmail.com"

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Blog v1</title>
+  <link rel="stylesheet" href="css/blogstyles.css">
+</head>
+
+<!--
+<header>
+  <form class="headtext" action="/" method="post">
+
+    <h1 class="daily" >DAILY JOURNAL</h1>
+    <h1 class="right" id="idhome"onclick="clickhome()">HOME</h1>
+    <h1 class="right" onclick="clickabout()">ABOUT US</h1>
+    <h1 class="right" onclick="clickcontact()">CONTACT US</h1>
+  </form>
+</header>'
+-->
+
+<header>
+  <form class="allbutton" method="post">
+    <button class="text" id="but" type="submit" onclick="daily" value="home">DAILY JOURNAL</button>
+    <button formaction="/fhome"class="textall" name="nhome" type="submit" onclick="home" value=<%= bclicked %>>HOME</button>
+    <button formaction="/fabout"class="textall" name="nabout" type="submit" onclick="about" value=<%= bclicked %>>ABOUT US</button>
+    <button formaction="/fcontact"class="textall" name="ncontact" type="submit" onclick="contact" value=<%= bclicked %>>CONTACT US</button>
+  </form>
+</header>
+
+<body>
+  <h1 class="bodyhome">Home</h1>
+  <h2><%= bclicked %></h1>
+</body>
+
+<footer> With ❤ from Jowar</footer>
+
+</html>

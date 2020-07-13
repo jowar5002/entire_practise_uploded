@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+<div class="homepart">
+  <h1>Compose</h1>
+  <form class="composeitem" action="/" method="post">
+    <label>Title</label>
+
+    <div class="input-group input-group-sm mb-3">
+      <input type="text" name="postTitle" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <label>Post</label>
+    <div class="input-group">
+      <textarea class="form-control" rows="8" aria-label="With textarea" name="postBody"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" name="button">Publish</button>
+    <!-- <h4>Title</h4>
+    <input size= "147" type="text" name="newhead" value="Post heading">
+    <h4>Post</h4>
+    <textarea name="message" rows="8" cols="150"></textarea>
+    <p><button type="submit" name="button">Publish</button></p> -->
+
+  </form>
+</div>
+
+<%- include("partials/footer") -%>

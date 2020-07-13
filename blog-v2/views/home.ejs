@@ -1,0 +1,23 @@
+<%- include("partials/header") -%>
+
+<div class="homepart">
+  <h1>Home</h1>
+  <p><%= hometext %></p>
+
+  <% gdata.forEach(function(gdatasingle) { %>
+
+  <h1><%= gdatasingle.ptitle %></h1>
+
+
+  <p>
+    <%= gdatasingle.pcontent.substring(0, 100) + " ..." %>
+    <a href="/gdata/<%= gdatasingle.ptitle %>"+ >Read more</a>
+  </p>
+  <% }); %>
+
+
+
+
+</div>
+
+<%- include("partials/footer") -%>

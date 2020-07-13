@@ -1,0 +1,43 @@
+ <%- include("partials/header") -%>
+
+
+ <div class="content">
+
+   <ul class="nav nav-tabs" id="myTab" role="tablist">
+     <li class="nav-item" role="presentation">
+       <a class="nav-link active" id="Work-tab" data-toggle="tab" href="#Work" role="tab" aria-controls="Work" aria-selected="true"><h5 class = "tab-font">Work</h5></a>
+     </li>
+     <li class="nav-item" role="presentation">
+       <a class="nav-link" id="Student-tab" data-toggle="tab" href="#Student" role="tab" aria-controls="Student" aria-selected="false"><h5 class = "tab-font">Student</h5></a>
+     </li>
+     <li class="nav-item" role="presentation">
+       <a class="nav-link" id="Visitor-tab" data-toggle="tab" href="#Visitor" role="tab" aria-controls="Visitor" aria-selected="false"><h5 class = "tab-font">Visitor</h5></a>
+     </li>
+
+     <li class="nav-item" role="presentation">
+       <a class="nav-link" id="ParmanentResidence-tab" data-toggle="tab" href="#ParmanentResidence" role="tab" aria-controls="ParmanentResidence" aria-selected="false"><h5 class = "tab-font">Parmanent Residence</h5></a>
+     </li>
+     <li class="nav-item" role="presentation">
+       <a class="nav-link" id="BusinessImmi-tab" data-toggle="tab" href="#BusinessImmi" role="tab" aria-controls="BusinessImmi" aria-selected="false"><h5 class = "tab-font">Business Immigrant</h5></a>
+     </li>
+
+     <li class="nav-item" role="presentation">
+       <a class="nav-link" id="ExpressEntry-tab" data-toggle="tab" href="#ExpressEntry" role="tab" aria-controls="ExpressEntry" aria-selected="false"><h5 class = "tab-font">Express Entry</h5></a>
+     </li>
+   </ul>
+   <div class="tab-content" id="myTabContent">
+     <div class="tab-pane fade show active" id="Work" role="tabpanel" aria-labelledby="Work-tab"><%= cFrom  %> <%=cTo %></div>
+     <div class="tab-pane fade" id="Student" role="tabpanel" aria-labelledby="Student-tab">this is Student tab. write anything under Student</div>
+     <div class="tab-pane fade" id="Visitor" role="tabpanel" aria-labelledby="Visitor-tab">this is Visitor tab. write anything under Visitor</div>
+
+     <div class="tab-pane fade" id="ParmanentResidence" role="tabpanel" aria-labelledby="ParmanentResidence-tab">this is ParmanentResidence tab. write anything under ParmanentResidence</div>
+     <div class="tab-pane fade" id="BusinessImmi" role="tabpanel" aria-labelledby="BusinessImmi-tab">this is BusinessImmi tab. write anything under BusinessImmi</div>
+      <div class="tab-pane fade" id="ExpressEntry" role="tabpanel" aria-labelledby="ExpressEntry-tab">this is ExpressEntry tab. write anything under ExpressEntry</div>
+   </div>
+ </div>
+
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+ <%- include("partials/footer") -%>

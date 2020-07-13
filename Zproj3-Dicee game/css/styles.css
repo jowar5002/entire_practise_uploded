@@ -1,0 +1,20 @@
+body {
+  background-color: #393e46;
+  text-align: center;
+}
+
+h1 {
+  color: #127681;
+  font-family: monospace;
+  font-size: 10em;
+}
+
+.player {
+  color: #127681;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.dice {
+  display: inline-block;
+}

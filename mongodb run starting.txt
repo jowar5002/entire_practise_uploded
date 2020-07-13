@@ -1,0 +1,21 @@
+install driver --  npm i mongodb
+
+npm i mongoose
+
+starting db --  mongod
+
+open new shell -- mongo
+ -------------------------------
+help for help
+
+show dbs
+
+
+use dbname --  to switch dbs
+
+show collections
+
+db.collections(fruits).find() --  to see the data
+
+
+
